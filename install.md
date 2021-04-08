@@ -1,61 +1,28 @@
-## Chocolatey installs
+## Chocolatey
 
-SSD
+cmd 
 
-```
-choco install -y googlechrome
-  firefox
-  python3
-  nvm
-  golang
-  dotnet
-  mingw
-  vscode
-  cascadiacode
-  wsl2
-  wsl-ubuntu-2004
-  microsoft-windows-terminal
-  git
-  gh
-  yarn
-  pycharm
-  blender
-  obs-studio
-  discord
-  slack
-  microsoft-teams
-  postman
-  unity-hub
-  spotify
-  docker-desktop
-  geforce-experience
-  jre8
-  epicgameslauncher
-  insomnia-rest-api-client
-  quicklook
-```
+`@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
 
-HD
+psh 
 
-```
-choco install -y goggalaxy
-  steam-client
-  autohotkey.portable
-  vlc.portable
-  peazip.portable
-  youtube-dl-gui.portable
-  qbittorrent --install-arguments="'/DIR=D:\'"
-```
+`Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
+
+installs
+
+`choco install packages.config -y`
 
 ## Others
-* Bosca Ceoil
-* Screen
-* windowTop
-* TileIconifiner
-* Dolby DAX2
-* PredatorSense Service
-* nvidia-smi.exe
-* hxd
+
+- Bosca Ceoil
+- Screen
+- windowTop
+- TileIconifiner
+- Dolby DAX2
+- PredatorSense Service
+- nvidia-smi.exe
+- hxd
 
 ## GOD Mode folder
-```.{ED7BA470-8E54-465E-825C-99712043E01C}```
+
+`.{ED7BA470-8E54-465E-825C-99712043E01C}`
