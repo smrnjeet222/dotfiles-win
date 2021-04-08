@@ -2,7 +2,7 @@
 
 SSD
 
-`
+```
 choco install -y googlechrome
   firefox
   python3
@@ -33,19 +33,19 @@ choco install -y googlechrome
   epicgameslauncher
   insomnia-rest-api-client
   quicklook
-`
+```
 
 HD
 
-`
-  choco install -y goggalaxy
+```
+choco install -y goggalaxy
   steam-client
   autohotkey.portable
   vlc.portable
   peazip.portable
   youtube-dl-gui.portable
   qbittorrent --install-arguments="'/DIR=D:\'"
-` 
+```
 
 ## Others
 * Bosca Ceoil
@@ -58,4 +58,4 @@ HD
 * hxd
 
 ## GOD Mode folder
-`.{ED7BA470-8E54-465E-825C-99712043E01C}`
+```.{ED7BA470-8E54-465E-825C-99712043E01C}```
