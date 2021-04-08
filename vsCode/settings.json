@@ -1,0 +1,162 @@
+{
+  "workbench.colorCustomizations": {
+    "terminalCursor.foreground": "#00ffaa"
+    // "editor.background": "#24292E",
+    // "editor.foreground": "#fff",
+    // "editorIndentGuide.background": "#000",
+    // "editorRuler.foreground": "#000"
+    // "activityBar.background": "#00d8ff",
+    // "activityBar.foreground": "#000000",
+    // "activityBar.inactiveForeground": "#00000099",
+    // "activityBarBadge.background": "#6dffff",
+    // "activityBarBadge.foreground": "#000000",
+    // "statusBar.noFolderBackground": "#00a6cc",
+    // "statusBar.background": "#00d8ff",
+    // "statusBar.foreground": "#000000",
+    // "statusBarItem.hoverBackground": "#00a6cc"
+  },
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+  "editor.hover.enabled": true,
+  "editor.tabCompletion": "onlySnippets",
+  "editor.snippetSuggestions": "inline",
+  "editor.parameterHints.enabled": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "terminal.integrated.confirmOnExit": true,
+  "terminal.integrated.cursorStyle": "block",
+  // "terminal.integrated.lineHeight" : 1,
+  "terminal.external.osxExec": "wt.exe",
+  "editor.mouseWheelZoom": true,
+  "editor.smoothScrolling": true,
+  // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "editor.suggestSelection": "first",
+  "editor.fontSize": 18,
+  "files.autoSaveDelay": 5000,
+  "editor.wordWrap": "off",
+  "explorer.confirmDragAndDrop": true,
+  "explorer.confirmDelete": false,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "terminal.integrated.fontSize": 16,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "python.terminal.executeInFileDir": true,
+  "workbench.sideBar.location": "left",
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/*.exe": false,
+    "**/.classpath": false,
+    "**/*.class": false,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.preserveFocus": true,
+  "code-runner.runInTerminal": true,
+  "terminal.integrated.cursorBlinking": true,
+  "code-runner.clearPreviousOutput": false,
+  "code-runner.ignoreSelection": false,
+  "code-runner.showRunCommandInEditorContextMenu": false,
+  "code-runner.enableAppInsights": false,
+  "code-runner.showRunCommandInExplorerContextMenu": false,
+  "code-runner.executorMapByFileExtension": {
+    ".ipynb": "jupyter notebook"
+  },
+  "code-runner.executorMap": {
+    "python": "$pythonPath $fullFileName",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt"
+  },
+  "python.pythonPath": "/usr/bin/python3",
+  "python.defaultInterpreterPath": "C:\\Users\\smrnj\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+  "liveServer.settings.donotVerifyTags": true,
+  "workbench.statusBar.visible": true,
+  "python.insidersChannel": "off",
+  "extensions.ignoreRecommendations": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "window.menuBarVisibility": "visible",
+  "editor.renderControlCharacters": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // "terminal.integrated.shell.linux": "/bin/zsh",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".css",
+      "savePath": "/public"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false,
+  "git.confirmSync": false,
+  "timeline.excludeSources": [],
+  "git.autofetch": true,
+  "C_Cpp.default.cppStandard": "c++20",
+  "C_Cpp.default.cStandard": "c17",
+  "C_Cpp.updateChannel": "Insiders",
+  "files.associations": {
+    "*.js": "javascript",
+    "*.html": "html"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "git.ignoreMissingGitWarning": true,
+  "editor.accessibilitySupport": "off",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // "java.semanticHighlighting.enabled": true,
+  "settingsSync.ignoredExtensions": [
+    "formulahendry.code-runner",
+    "redhat.java"
+  ],
+  "java.semanticHighlighting.enabled": false,
+  "terminal.integrated.rendererType": "dom",
+  "vscode_vibrancy.opacity": 0.8,
+  "vscode_vibrancy.type": "ultra-dark",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.minimap.enabled": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "material-ui-snippets.showNotesOnStartup": false,
+  "window.title": "${activeEditorShort}${separator}${rootName}",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "stories.username": "Cornelia_rolling",
+  "stories.ffmpeg-binary": "c:\\Users\\smrnj\\Desktop/ffmpeg.exe",
+  "jupyter.useNotebookEditor": false,
+  "jupyter.debugJustMyCode": false,
+  "jupyter.sendSelectionToInteractiveWindow": false,
+  "python.languageServer": "Pylance",
+  "breadcrumbs.enabled": true,
+  "svg.preview.mode": "svg",
+  "autoimport.filesToScan": "**/*.{ts,tsx}, ./src/**",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.linkedEditing": true,
+  "files.autoSave": "afterDelay",
+  "tabnine.experimentalAutoImports": true,
+  "editor.fontFamily": "'cascadia code'",
+  "editor.fontLigatures": true,
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Material Theme",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "vscode_custom_css.imports": ["file:///C:/Users/smrnj/Documents/custom.css"],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.zoomLevel": 1
+}
