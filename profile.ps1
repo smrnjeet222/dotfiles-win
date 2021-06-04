@@ -11,13 +11,12 @@ $curUser= (Get-ChildItem Env:\USERNAME).Value
 # $curComp= (Get-ChildItem Env:\COMPUTERNAME).Value
 
 
-
+cls
 Write-Host "Greetings, $curUser!" -foregroundColor Yellow
 Write-Host "It is: $time" -foregroundColor Yellow
 # Write-Host "You're running PowerShell version: $psVersion" -foregroundColor Green
 # Write-Host "Your computer name is: $curComp" -foregroundColor Green
 # Write-Host "Happy scripting!" `n
-
 
 function Prompt {
 
@@ -41,3 +40,12 @@ Write-Host -NoNewLine " >>" -foregroundColor Red
 Return " "
 
 }
+# Chocolatey profile
+$ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
+if (Test-Path($ChocolateyProfile)) {
+  Import-Module "$ChocolateyProfile"
+}
+
+# Install Starship
+
+Invoke-Expression (&starship init powershell)

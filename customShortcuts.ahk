@@ -5,3 +5,4 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 #XButton1:: ^#Left
 #XButton2:: ^#Right
+Capslock::Esc

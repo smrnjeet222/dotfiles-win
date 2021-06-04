@@ -27,22 +27,19 @@
   "terminal.external.osxExec": "wt.exe",
   "editor.mouseWheelZoom": true,
   "editor.smoothScrolling": true,
-  // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
   "editor.suggestSelection": "first",
   "editor.fontSize": 18,
   "files.autoSaveDelay": 5000,
   "editor.wordWrap": "off",
   "explorer.confirmDragAndDrop": true,
   "explorer.confirmDelete": false,
-  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.acceptSuggestionOnEnter": "off",
   "liveServer.settings.donotShowInfoMsg": true,
   "terminal.integrated.fontSize": 16,
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
   "python.terminal.executeInFileDir": true,
-  "workbench.sideBar.location": "left",
   "files.exclude": {
     "**/node_modules": true,
     "**/*.exe": false,
@@ -86,9 +83,8 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  // "terminal.integrated.shell.linux": "/bin/zsh",
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "liveSassCompile.settings.formats": [
     {
@@ -106,7 +102,9 @@
   "C_Cpp.updateChannel": "Insiders",
   "files.associations": {
     "*.js": "javascript",
-    "*.html": "html"
+    "*.html": "html",
+    ".env": "env",
+    "*.toml": "toml"
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -126,7 +124,6 @@
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "editor.minimap.enabled": true,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -139,24 +136,32 @@
   "jupyter.debugJustMyCode": false,
   "jupyter.sendSelectionToInteractiveWindow": false,
   "python.languageServer": "Pylance",
-  "breadcrumbs.enabled": true,
   "svg.preview.mode": "svg",
   "autoimport.filesToScan": "**/*.{ts,tsx}, ./src/**",
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.linkedEditing": true,
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "onFocusChange",
   "tabnine.experimentalAutoImports": true,
-  "editor.fontFamily": "'cascadia code'",
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "cascadia code",
   "editor.fontLigatures": true,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Material Theme",
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.tabSize": 2,
-  "vscode_custom_css.imports": ["file:///C:/Users/smrnj/Documents/custom.css"],
-  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.colorTheme": "Community Material Theme",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter-notebook",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "csharp.suppressDotnetInstallWarning": true,
+  "csharp.suppressDotnetRestoreNotification": true,
+  "workbench.settings.editor": "json",
+  "gitlens.views.branches.branches.layout": "list",
   "window.zoomLevel": 1
 }
