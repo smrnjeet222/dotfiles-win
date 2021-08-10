@@ -5,6 +5,7 @@
 - [starship](https://starship.rs/)
 - [powercord](https://github.com/powercord-org/powercord)
 - [AudioDriver](https://www.acer.com/ac/en/SG/content/support-product/7603?b=1)
+- [WinDirStat](https://windirstat.net/download.html)
 
 ## Windows10Debloater
 
