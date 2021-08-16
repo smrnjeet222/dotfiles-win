@@ -46,6 +46,34 @@ if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"
 }
 
-# Install Starship
+
+$ENV:STARSHIP_CONFIG = "$HOME\.starship\config.toml"
+
+Import-Module -Name Terminal-Icons
+
+#ALIAS
+
+Set-Alias -Name l -value lsformatwide
+Set-Alias -Name lsl -value lsformatlist
+
+#FUNCIONES
+
+function lsformatwide {
+    Param(
+        [switch]$l
+    )
+
+    if ($l) {
+        Get-ChildItem $Args[0]. -Force  | Format-Wide -Column 3
+    }
+    else {
+        Get-ChildItem $Args[0] | Format-Wide -Column 3
+    }
+}
+
+function lsformatlist {
+    Get-ChildItem | Format-List
+}
+
 
 Invoke-Expression (&starship init powershell)
