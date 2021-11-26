@@ -15,3 +15,15 @@
 ## GOD Mode folder
 
 `.{ED7BA470-8E54-465E-825C-99712043E01C}`
+
+## WSL release disk space back to host OS
+```bash
+wsl --shutdown
+diskpart
+# open window Diskpart
+select vdisk file="C:\Users\Simranjeet\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu20.04onWindows_79rhkp1fndgsc\LocalState\ext4.vhdx"
+attach vdisk readonly
+compact vdisk
+detach vdisk
+exit
+``` 
